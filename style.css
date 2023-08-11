@@ -1,0 +1,45 @@
+.carousel-container {
+    position: relative;
+    width: 100%; /* or set a fixed width */
+    overflow: hidden;
+}
+
+.carousel-slider {
+    display: flex;
+    transition: transform 0.4s;
+    width: 1500px;
+}
+
+.carousel-slider img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#prevBtn, #nextBtn {
+    cursor: pointer;
+}
+
+.carousel-nav {
+    display: flex;
+    gap: 8px;
+}
+
+.carousel-nav span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel-nav .active {
+    background-color: black;
+}

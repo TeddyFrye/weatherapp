@@ -10,10 +10,11 @@
     width: 1500px;
 }
 
-.carousel-slider img {
-    width: 500px;
-    height: 300px;
+.carousel-container .carousel-slider img {
+    width: 200px;
+    height: 100px;
     object-fit: cover;
+    opacity: 0;
 }
 
 .carousel-controls {
@@ -41,5 +42,5 @@
 }
 
 .carousel-nav .active {
-    background-color: black;
+    opacity: 1;
 }

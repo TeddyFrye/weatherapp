@@ -3,7 +3,7 @@ const img = document.querySelector("img");
 
 async function getCats() {
   const response = await fetch(
-    "https://api.giphy.com/v1/gifs/translate?api_key=ioOWdJ8FcDZHhx3mP2KnHepN3DFuP6u9&s=cats",
+    "https://api.giphy.com/v1/gifs/translate?api_key=ioOWdJ8FcDZHhx3mP2KnHepN3DFuP6u9&s=weather",
     { mode: "cors" }
   );
   const catData = await response.json();

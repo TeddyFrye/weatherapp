@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100%;
+    background-image: url('forecast.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#loading {
+    display: none;
+}
+
+#weatherImage {
+    transition: opacity 1s;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+#weatherImage {
+    opacity: 0;
+}
+
+#inputform {
+    text-align: center;
+    margin-top: 15px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 2px;
+}

@@ -7,16 +7,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <p>Look at this gif!</p>
     <img src="#" alt="" />
-    <p>
-      Now check out this weather form! Enter a city and get the weather in the
-      console.
-    </p>
-    <form id="weatherForm">
-      <input type="text" id="locationInput" placeholder="Enter your location" />
-      <button type="submit">Get Weather</button>
-    </form>
+    <p id="error"></p>
+    <div id="gifholder">
+      <img id="weatherImage" src="#" alt="" width="500" height="300" />
+      <p></p>
+      <progress id="loading" value="0" max="100"></progress>
+    </div>
+    <div id="inputform">
+      <p>Enter a city and get the weather in the console.</p>
+      <form id="weatherForm">
+        <input
+          type="text"
+          id="locationInput"
+          placeholder="Enter your location"
+        />
+        <button type="submit">Get Weather</button>
+      </form>
+    </div>
 
     <script src="script.js"></script>
   </body>
